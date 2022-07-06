@@ -95,14 +95,3 @@ addNew.addEventListener('click', () => {
     contactPage.classList.add('hide');
 
 });
-
-contact.addEventListener('click', () => {
-    listMain.classList.add('hide');
-    formContainer.classList.add('hide');
-    contactPage.classList.remove('hide');
-
-});
-
-let date = new Date();
-
-document.querySelector('.date-p').innerHTML = date;
