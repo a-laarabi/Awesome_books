@@ -35,11 +35,10 @@ class UI {
   static addToList(book) {
     const list = document.querySelector('.list-container');
     const newBook = document.createElement('div');
+
     newBook.innerHTML = `
-        <p>${book.title}</p>
-        <p>${book.author}</p>
+        <p>"${book.title}" by ${book.author}</p>
         <button type="submit" class="delete">Remove</button>
-        <hr>
       `;
     list.appendChild(newBook);
   }

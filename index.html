@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Awesome books</title>
 </head>
 
@@ -14,11 +15,15 @@
     </header>
     <section class="list-container">
     </section>
+
+    <hr class="between_section">
+
     <section class="new_book">
+        <h1>Add a new book</h1>
         <form>
-            <input id="title" class="book_title" type="text" placeholder="Title" required>
+            <input id="title" class="input book_title" type="text" placeholder="Title" required>
             <br>
-            <input id="author" class="book_author" type="text" placeholder="Author" required>
+            <input id="author" class="input book_author" type="text" placeholder="Author" required>
             <br>
             <input class="book_add" type="submit" value="Add">
         </form>
