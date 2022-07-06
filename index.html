@@ -11,14 +11,28 @@
 
 <body>
     <header>
-        <h1>All awesome books</h1>
+        <a class="logo" href="">Awesome Books</a>
+        <nav>
+            <ul class="nav-list">
+                <li><a class="list link" href="#list-main">List</a></li>
+                <li><a class="add_new link" href="#new-book">Add New</a></li>
+                <li><a class="contact link" href="#contact-page">Contact</a></li>
+            </ul>
+        </nav>
+
     </header>
-    <section class="list-container">
+    <div class="date">
+        <p class="date-p"></p>
+    </div>
+    <section id="list-main" class="list-main hide">
+        <h1>All awesome books</h1>
+        <div class="list-container">
+
+        </div>
     </section>
+    <hr class="between_section hide">
 
-    <hr class="between_section">
-
-    <section class="new_book">
+    <section id="new-book" class="addBook new_book hide">
         <h1>Add a new book</h1>
         <form>
             <input id="title" class="input book_title" type="text" placeholder="Title" required>
@@ -28,6 +42,18 @@
             <input class="book_add" type="submit" value="Add">
         </form>
     </section>
+    <section id="contact-page" class="contact-page hide">
+        <h1>Contact Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, similique.</p>
+        <ul>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit.</li>
+        </ul>
+
+    </section>
+
+
     <script src="script.js"></script>
 </body>
 
