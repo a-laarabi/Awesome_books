@@ -69,3 +69,37 @@ document.querySelector('.list-container').addEventListener('click', (e) => {
   Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 });
 /* eslint-enable max-classes-per-file */
+
+const listLink = document.querySelector('.list');
+const addNew = document.querySelector('.add_new');
+const contact = document.querySelector('.contact');
+const listMain = document.querySelector('.list-main');
+const formContainer = document.getElementById('new-book');
+const contactPage = document.querySelector('.contact-page');
+
+document.addEventListener('DOMContentLoaded', () => {
+  listMain.classList.remove('hide');
+  formContainer.classList.add('hide');
+  contactPage.classList.add('hide');
+});
+listLink.addEventListener('click', () => {
+  listMain.classList.remove('hide');
+  formContainer.classList.add('hide');
+  contactPage.classList.add('hide');
+});
+
+addNew.addEventListener('click', () => {
+  listMain.classList.add('hide');
+  formContainer.classList.remove('hide');
+  contactPage.classList.add('hide');
+});
+
+contact.addEventListener('click', () => {
+  listMain.classList.add('hide');
+  formContainer.classList.add('hide');
+  contactPage.classList.remove('hide');
+});
+
+const date = new Date();
+
+document.querySelector('.date-p').innerHTML = date;
