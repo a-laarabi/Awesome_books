@@ -1,7 +1,7 @@
-import { addBook, deleteBook } from './modules/saveBook.js';
-import { removeBook, clear } from './modules/addRemove.js';
-import { addToList, showBooks } from './modules/addBook.js';
-import { DateTime } from './modules/luxon.js';
+import { addBook, deleteBook } from '../modules/saveBook.js';
+import { removeBook, clear } from '../modules/addRemove.js';
+import { addToList, showBooks } from '../modules/addBook.js';
+import { DateTime } from '../modules/luxon.js';
 
 class Book {
   constructor(title, author) {
