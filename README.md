@@ -35,10 +35,6 @@ To successfully utilize this project first of all you need to clone or download 
 
 ## Authors
 
-👤 Eyasu Teshome
-
-- GitHub: [@EyasuTeshome](https://github.com/EyasuTeshome)
-
 👤 Anas
 - GitHub: [@a-laarabi](https://github.com/a-laarabi)
 
