@@ -17,9 +17,9 @@ In this project I have used linter for HTML and CSS and Javascript, to make sure
 - Javascript
 
 
-## Live Demo (if available)
+## Live Demo
 
-(Not Available)
+[Demo](https://a-laarabi.github.io/Awesome_books/)
 
 
 ## Getting Started
@@ -35,8 +35,11 @@ To successfully utilize this project first of all you need to clone or download 
 
 ## Authors
 
-👤 Anas
+👤 **Anasse LAARABI**
+
 - GitHub: [@a-laarabi](https://github.com/a-laarabi)
+- Twitter: [@AnasseLaarabi](https://twitter.com/AnasseLaarabi)
+- LinkedIn: [a-laarabi](https://www.linkedin.com/in/a-laarabi/)
 
 ## 🤝 Contributing
 
